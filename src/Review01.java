@@ -8,6 +8,7 @@ public class Review01 {
         // 消費税額を計算
         double taxAmount = price * TAX_RATE;
         // 小数点以下を切り捨てて整数値に変換
+       
         return (int) taxAmount;
     }
 
